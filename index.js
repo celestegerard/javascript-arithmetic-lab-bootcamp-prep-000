@@ -1,17 +1,16 @@
-var number = 7
 
 function add(a, b) {
-  number += 3
+  a += b
 }
 
 function subtract(a, b){
-  number -= 3
+  a -= b
 }
 
 function multiply(a, b){
-  number *= 3
+  a *= b
 }
 
 function divide(a, b){
-  number /= 3
+  a /= b
 }
