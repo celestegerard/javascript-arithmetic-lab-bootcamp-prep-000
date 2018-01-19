@@ -1,7 +1,17 @@
-var add = (x+=y);
+var number = 7
 
-var subtract = (x-=y)
+function add(number, 3) {
+  number += 3
+}
 
-var multiply = (x *= y)
+function subtract(number,3){
+  number -= 3
+}
 
-var divide = (x /= y)
+function multiply(number, 3){
+  number *= 3
+}
+
+function divide(number, 3){
+  number /= 3
+}
